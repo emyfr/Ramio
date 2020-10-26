@@ -47,6 +47,8 @@ The first thing you'll notice is that lspci doesn't show any wifi adapters, that
     iwconfig - Copy the MAC address from iwconfig into the macaddr field in your brcmfmac43340-sdio.txt file ( it's 02:0A:F7:2A:3B:4C below )
     Reboot and enjoy your wifi
 
+
+<code>
 manfid=0x2d0
 prodid=0x0653
 vendid=0x14e4
@@ -135,3 +137,4 @@ noise_cal_high_gain_5g=73
 noise_cal_nf_substract_val_5g=346
 cckpapden=0
 paparambwver=1
+</code>
